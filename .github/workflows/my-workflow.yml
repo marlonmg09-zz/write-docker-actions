@@ -9,7 +9,7 @@ jobs:
       - uses: actions/checkout@v1
 
       - name: hello-action
-        uses: ./.github(avtions/hello-world
+        uses: ./.github/actions/hello-world
         with:
           firstGreeting: "Learning Lab User"
           secondGreeting: "Marlon Mejia"
