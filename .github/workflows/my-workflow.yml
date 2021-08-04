@@ -8,9 +8,9 @@ jobs:
     steps:
       - uses: actions/checkout@v1
 
-    - name: hello-action
-      uses: ./.github(avtions/hello-world
-      with:
-        firstGreeting: "Learning Lab User"
-        secondGreeting: "Marlon Mejia"
-        thirdGreeting: "Twinky"
+      - name: hello-action
+        uses: ./.github(avtions/hello-world
+        with:
+          firstGreeting: "Learning Lab User"
+          secondGreeting: "Marlon Mejia"
+          thirdGreeting: "Twinky"
