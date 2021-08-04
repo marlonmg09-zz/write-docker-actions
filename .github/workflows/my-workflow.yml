@@ -13,3 +13,5 @@ jobs:
       uses: ./.github(avtions/hello-world
       with:
         firstGreeting: "Learning Lab User"
+        secondGreeting: "Marlon Mejia"
+        thirdGreeting: "Twinky"
